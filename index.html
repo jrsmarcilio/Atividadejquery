@@ -11,18 +11,19 @@
       <div class="box-header">
         <div>
             <h1>JBA Typer</h1>
-            <p>
+            <p id="frase">
             Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec
-            leo commodo, ut interdum diam laoreet. 
+            leo commodo, ut interdum diam laoreet. Mollitia facere voluptas
+            recusandae, suscipit quaerat obcaecati sequi maiores quasi vero.
             </p>
         </div>
         
         <div class="count">
           <div>
-            <img src="/icons/arquivo.png" alt="" /> <p>20</p>palavras
+            <img src="/icons/arquivo.png" alt="" /> <p id="tamanho-frase"></p> palavras
           </div>
           <div>
-            <img src="/icons/relogio-de-parede.png" alt="" /><p>10</p>segundos
+            <img src="/icons/relogio-de-parede.png" alt="" /><p id="tempo-jogo"></p> segundos
           </div>
         </div>
 
@@ -38,12 +39,12 @@
     <main>
       <div class="count2">
         <div>
-          <p>20</p>
-          palavras
+          <p id="caracteres-digitados">0</p>
+           caracteres digitados
         </div>
         <div>
-          <p>10</p>
-          segundos
+          <p id="palavras-digitadas"></p>
+          palavras digitadas
         </div>
       </div>
 
@@ -59,12 +60,14 @@
           </thead>
 
           <tr class="player">
-            <td><div>Claudio</div><hr></td>
+            <!-- <td><div>Claudio</div><hr></td>
             <td><div>8ppm</div><hr></td>
-            <td><div><button><img src="/icons/lixeira.png" alt=""></button></div><hr></td>
+            <td><div><button><img src="/icons/lixeira.png" alt=""></button></div><hr></td> -->
           </tr>
         </table>
       </div>
     </main>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
