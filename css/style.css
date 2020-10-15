@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+img{
+    width: 20px;
+}
+.box-header{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.box-header div{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 0;
+    width: auto;
+}
+header h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.count div{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count img{
+    margin-right: 10px;
+}
+textarea{
+    height: 90px;
+    width: 100%;
+    padding: 5px 10px;
+}
+.btn{
+    display: block;
+    text-align: center;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #ce1515;
+    border: none;
+    cursor: pointer;
+}
+main{
+    display: block;
+    text-align: center;
+    padding: 0 50px;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.count2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score button{
+    width: 30px;
+    height: 30px;
+}
+.score{
+    display:block;
+    text-align: center;
+    font-size: 18px;
+}
+.score th{
+    width: 30vw;
+}
+.score div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+td div{
+    height: 50px;
+}
